@@ -32,7 +32,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+    
+  flutter_launcher_icons: ^0.14.4
   flutter_lints: ^6.0.0
 
 flutter:
@@ -50,3 +51,8 @@ flutter_native_splash:
   image: assets/images/logo.png # مسار اللوجو الخاص بك
   android_12:
     image: assets/images/logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
